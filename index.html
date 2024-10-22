@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家系図アプリケーション</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>家系図アプリケーション</h1>
+    <div id="input-form">
+        <input type="text" id="name" placeholder="名前">
+        <input type="text" id="parent" placeholder="親の名前（オプション）">
+        <button onclick="addFamilyMember()">追加</button>
+    </div>
+    <div id="error-message"></div>
+    <div id="family-tree"></div>
+    <script src="script.js"></script>
+</body>
+</html>
